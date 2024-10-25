@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "store",
     "embed_video",
-    
+
     
 ]
 
@@ -83,6 +83,17 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'codehub_db',
+#         'USER': 'root',
+#         'PASSWORD': 'Password@123',
+#         'HOST':'localhost',
+#         'PORT':'3306',
+#     }
+# }
 
 
 # Password validation
